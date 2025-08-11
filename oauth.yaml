@@ -1,0 +1,10 @@
+apiVersion: config.openshift.io/v1
+kind: OAuth
+metadata:
+  name: cluster
+  ownerReferences:
+  - apiVersion: config.openshift.io/v1
+    kind: ClusterVersion
+    name: version
+    uid: 21b3a2c5-44d4-4caa-9bee-26c6cf6624a2
+spec: {}
